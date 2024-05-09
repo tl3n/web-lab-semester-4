@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    min-width: 980px;
+    margin: 10px;
+    background-color: #211d1c;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+}
+
+.header-logo {
+    height: 125px;
+    width: auto;
+}
+
+.header-contacts {
+    font-weight: bold;
+    font-size:large;
+    text-align: right;
+    color: #dfe1ba;
+}
+
+.header-feedback {
+    text-decoration: underline;
+}
+
+.header-logo-text {
+    color: #dfe1ba;
+}
