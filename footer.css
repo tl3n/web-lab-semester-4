@@ -1,3 +1,10 @@
+.footer-wraper {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+}
+
 .footer {
     display: flex;
     align-items: center;
