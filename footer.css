@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 150px;
+    height: 100px;
     min-width: 980px;
     width: 100%;
     background-color: #211d1c;
@@ -45,10 +45,13 @@
 }
 
 .footer-links li {
+    padding: 5px;
     display: block;
 }
 
 .footer-links li a {
+    font-size: 100%;
+    line-height: 0px;
     color: #dfe1ba;
 }
 
