@@ -1,0 +1,127 @@
+.content {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 75%;
+    height: 100%;
+}
+
+.sidebar a, .sidebar li{
+    color: #dfe1ba;
+}
+
+.sidebar a:hover {
+    color: #f6ffd2;
+    text-shadow: #f6ffd2 0 0 5px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: #3a312e;
+    height: 100%;
+    width: 25%;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #3a312e;
+    height: 100%;
+    width: 75%;
+}
+
+.actors-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    background-color: #211d1c;
+}
+
+.card-img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-bottom: 5px;
+    margin-top: 5%;
+}
+
+.card-img img{
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #3a312e;
+}
+
+.card-actor-name {
+    font-size: 75%; 
+}
+
+.card-actor-name a{
+    color: #dfe1ba;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-actor-name a:hover{
+    text-shadow: #00000093 0 0 12px;;
+}
+
+.card-actor-role {
+    font-size: 100%;
+    color: #dfe1ba;
+}
+
+.content-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-pagination a {
+    color: #dfe1ba;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.content-pagination a.active {
+    background-color: #211d1c;
+    color: #dfe1ba;
+}
+  
+.content-pagination a:hover:not(.active) {
+    background-color: #dfe1ba;
+    color: #211d1c;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #dfe1ba;
+    border-top: solid 5px #211d1c;
+}
+
+.content-info div {
+    width: 50%;
+}

@@ -1,4 +1,5 @@
 .footer-wraper {
+    height: 100px;
     position: relative;
     bottom: 0;
     left: 0;
@@ -41,16 +42,16 @@
 .footer-links ul {
     text-align: center;
     list-style: none;
-    padding: 0px;
+    padding: 5px;
 }
 
 .footer-links li {
-    padding: 5px;
     display: block;
 }
 
 .footer-links li a {
-    font-size: 100%;
+    
+    font-size: 80%;
     line-height: 0px;
     color: #dfe1ba;
 }
