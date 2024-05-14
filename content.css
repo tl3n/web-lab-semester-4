@@ -80,7 +80,8 @@
 }
 
 .card-actor-name a:hover{
-    text-shadow: #00000093 0 0 12px;;
+    color: #f6ffd2;
+    text-shadow: #f6ffd2 0 0 5px;
 }
 
 .card-actor-role {
