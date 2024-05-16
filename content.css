@@ -126,3 +126,29 @@
 .content-info div {
     width: 50%;
 }
+
+.review-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #dfe1ba;
+    color: #3a312e;
+    width: 100%;
+    min-height: 150px;
+    border: 10px solid #211d1c;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.review.text-right {
+    text-align: right;
+}
+
+
+

@@ -1,12 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100%;
     margin: 0px;
-    min-height: 100vh;
+    padding: 0px;
     background-color: #3a312e;
 }
 
 .content-wrapper {
-    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    min-height: calc(100vh - 200px);
     flex: 1 0 auto;
 }
