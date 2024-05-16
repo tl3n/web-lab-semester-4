@@ -7,6 +7,9 @@
     height: 100%;
 }
 
+.sidebar {
+    margin: 0;
+}
 .sidebar a, .sidebar li{
     color: #dfe1ba;
 }
@@ -42,6 +45,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .card {
@@ -120,6 +124,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     color: #dfe1ba;
+    width: 100%;
     border-top: solid 5px #211d1c;
 }
 
@@ -139,14 +144,14 @@
     justify-content: space-between;
     background-color: #dfe1ba;
     color: #3a312e;
-    width: 100%;
     min-height: 150px;
     border: 10px solid #211d1c;
+    margin: 0;
     margin-bottom: 10px;
     padding: 20px;
 }
 
-.review.text-right {
+.text-right {
     text-align: right;
 }
 

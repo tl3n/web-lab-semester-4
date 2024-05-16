@@ -25,6 +25,7 @@
     margin: 0 auto;
     display: block;
     object-fit: cover;
+    object-position: top;
 }
 
 .slider-dots-wrapper {

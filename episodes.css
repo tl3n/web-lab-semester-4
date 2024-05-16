@@ -1,0 +1,63 @@
+.episodes-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #dfe1ba;
+    width: 100%;
+}
+
+.episode {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #dfe1ba;
+    color: #dfe1ba;
+    font-weight: bold;
+    min-height: 150px;
+    border: 10px solid #211d1c;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.episode a {
+    color: #dfe1ba;
+    text-decoration: underline;
+}
+
+.episode a:hover {
+    color: #f6ffd2;
+    text-shadow: #f6ffd2 0 0 5px;
+}
+
+.ep1 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/nGsArhFOoCiAzymyjtm_9M4ttps=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196453_e_h10_aa.jpg");
+}
+
+.ep2 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/w0jUOcjtt0eecyhjoklTPlmiPM4=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196646_e_h10_aa.jpg");
+}
+
+.ep3 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/i3hUxYBZZsPegt7db7l2rkI9-IM=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196647_e_h10_aa.jpg");
+}
+
+.ep4 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/BDdWzATN5voRcrsAA8WNIqsAiTc=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196648_e_h10_aa.jpg");
+}   
+
+.ep5 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/pEJ0WzDBZE4umSVAuvk_rpQ_RoA=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196649_e_h10_ab.jpg");
+}
+
+.ep6 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/7693T4Sc0__zom9MZrfJAkBrDaQ=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196650_e_h10_aa.jpg");
+}
+
+.ep7 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/Eymp9klETYFOiSXFzDuAiEb3nTQ=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196651_e_h10_ab.jpg")
+}
+
+.ep8 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://resizing.flixster.com/ySfwldZoH_ICWOoi9vxOh0Y7ZFQ=/1000x200/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196652_e_h10_aa.jpg");
+}
