@@ -10,18 +10,12 @@
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="content.css" />
-    <style>
-      @font-face {
-        font-family: "PT Sans";
-        src: url("https://fonts.google.com/specimen/PT+Sans");
-      }
-
-      body {
-        font-family: "PT Sans", sans-serif;
-        font-size: 14px;
-        line-height: 22px;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -39,9 +33,7 @@
               THE <br />
               BEAR
             </h1>
-            <h5>
-              A young chef from the fine dining world returns to Chicago.
-            </h5>
+            <h5>A young chef from the fine dining world returns to Chicago.</h5>
           </div>
         </div>
         <div class="header-container">
@@ -59,12 +51,12 @@
           <form id="feedback-form">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" id="name" name="name">
+              <input type="text" id="name" name="name" />
               <span class="error-message" id="name-error"></span>
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email">
+              <input type="email" id="email" name="email" />
               <span class="error-message" id="email-error"></span>
             </div>
             <div class="form-group">
