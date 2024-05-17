@@ -29,6 +29,15 @@
     color: #dfe1ba;
 }
 
+.header-contacts a{
+  color: #dfe1ba;
+}
+
+.header-contacts a:hover{
+  color: #f6ffd2;
+  text-shadow: #f6ffd2 0 0 5px;
+}
+
 .header-feedback {
     text-decoration: underline;
 }
